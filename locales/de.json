@@ -1,0 +1,925 @@
+{
+    "language": "de",
+    "tray": {
+        "open_browser": "Im Browser öffnen",
+        "open_log": "Log Datei öffnen",
+        "open_at_login": "Beim Einloggen öffnen",
+        "settings": "Einstellungen",
+        "settings_title": "Einstellungen",
+        "settings_description": "Änderungen werden nach einem Neustart der App angewendet.",
+        "settings_port_label": "Server Port",
+        "settings_lan_label": "Erlaube LAN Zugriff",
+        "settings_lan_help": "Erluabe außerdem Verbindungen von diesem lokalen Netzerk (IPv4).",
+        "settings_save": "Speichern",
+        "settings_cancel": "Abbrechen",
+        "settings_saved": "Einstellungen gespeichert. Zum Übernehmen die App neu starten.",
+        "settings_invalid_port": "Gibt einen gültigen TCP Port zwischen 1 und 65535 ein.",
+        "settings_save_error": "Die Einstellungen konnten nicht gespeichert werden.",
+        "quit": "Schließen"
+    },
+    "common": {
+        "loading": "Laden...",
+        "button": {
+            "close": "Schließen"
+        }
+    },
+    "notify": {
+        "title": "[{{.name}}] Aktualisierungsaufgabe ist fehlgeschlagen.",
+        "content": "Account: {{.account}}\nFehler: {{.error}}",
+        "batch_title": "atvloadly Ausführung der Aktualisierungsaufgabe ist fehlgeschlagen",
+        "batch_content": "{{.name}}: {{.error}}\n\n",
+        "update_title": "atvloadly: App Aktualisierungen",
+        "update_available": "{{.name}}: {{.version}} ist verfügbar\n",
+        "update_attention": "{{.name}}: Update braucht Aufmerksamkeit: {{.error}}\n",
+        "update_installed_title": "atvloadly: Anwendungen aktualisiert",
+        "update_installed": "{{.name}} wurde auf {{.version}} aktualisiert\n"
+    },
+    "nav": {
+        "settings": "Einstellungen",
+        "tools": "Werkzeuge",
+        "laboratory": "Labor",
+        "language": "Deutsch",
+        "theme": "Darstellung",
+        "theme_system": "System",
+        "theme_light": "Hell",
+        "theme_dark": "Dunkel",
+        "preferences": "Einstellungen",
+        "account": "Accounts",
+        "devices": "Geräte",
+        "donate": "Unterstützen",
+        "about": "Über"
+    },
+    "about": {
+        "version": "Version",
+        "build_date": "Erstellungsdatum"
+    },
+    "donate": {
+        "title": "Unterstützen",
+        "desc": "Wenn Sie dieses Projekt hilfreich finden, denken Sie bitte darüber nach, seine Weiterentwicklung zu unterstützen. Ihre Unterstützung hält das Projekt am Leben!",
+        "github_sponsor": "Unterstützung durch GitHub Sponsors",
+        "kofi": "Unterstützung auf Ko-fi",
+        "afdian": "Unterstützung auf Afadian",
+        "close": "Schließen"
+    },
+    "result": {
+        "success": "Erfolg",
+        "fail": "Fehler"
+    },
+    "home": {
+        "heading": {
+            "paired_devices": "Gekoppelte Geräte",
+            "service_status": "Service Status",
+            "installed_app": "Installierte Apps"
+        },
+        "dialog": {
+            "delete_confirm": {
+                "title": "Möchtest du {{name}} wirklich löschen?",
+                "button": {
+                    "cancel": "Abbrechen",
+                    "confirm": "Bestätigen"
+                }
+            }
+        },
+        "toast": {
+            "refresh_app_started": "Aktualisierung von {{name}} wurde gestartet",
+            "installing_app": "{{name}} wird installiert…",
+            "reinstall_app_started": "Die Neuinstallation von {{name}} wurde gestartet",
+            "update_started": "Die Aktualisierung von {{name}} auf {{version}} wurde gestartet",
+            "updates_available": "Verfügbare Aktualisierungen: {{count}}",
+            "check_errors": "Quellen, die nicht überprüft werden konnten: {{count}}",
+            "check_done": "Alle überwachten Apps sind auf dem neuesten Stand"
+        },
+        "source": {
+            "track": "Überwache Aktualisierungen",
+            "manage": "Quelle bearbeiten",
+            "auto": "Automatisch",
+            "available": "{{version}} verügbar",
+            "check_updates": "Nach Aktualisierungen suchen",
+            "update_failed": "Die Installation von {{version}} ist fehlgeschlagen und wird nicht automatisch erneut versucht. Verwende Aktualisieren um es erneut zu versuchen."
+        },
+        "sidebar": {
+            "add_device": {
+                "title": "Neue Gerät hinzufügen",
+                "subtitle": "Verbinde AppleTV oder iPhone"
+            },
+            "device_status": {
+                "pairable": "Koppelbar",
+                "paired": "Gekoppelt",
+                "unpaired": "Nicht gekoppelt",
+                "added": "Hinzugefügt",
+                "ip_badge": "IP",
+                "forget": "Löschen",
+                "forget_confirm": "Bestätigen",
+                "forget_done": "Gerät löschen"
+            },
+            "tips": {
+                "no_paired_devices": "Keine verbundenen Geräte",
+                "how_pair_device": "Bei Apple TV gehe zu 'Einstellungen -> Fernbedienungen und Geräte -> Fernbedienungs-App und Geräte', um den Kopplungsmodus zu aktivieren und den Vorgang abzuschließen."
+            }
+        },
+        "table": {
+            "header": {
+                "app": "App",
+                "device": "Gerät",
+                "account": "Account",
+                "expired_date": "Ablaufdatum",
+                "operate": "Aufgabe"
+            },
+            "expired_time_format": {
+                "expired_tips": "Abgelaufen",
+                "days_one": "{{num}} TAG",
+                "days": "{{num}} TAGE",
+                "hours_one": "{{num}} STUNDE",
+                "hours": "{{num}} STUNDEN",
+                "less_than_hour": "Bald"
+            },
+            "refresh_date_format": {
+                "installing_tips": "Installiere...",
+                "seconds_one": "vor {{num}} Sekunde",
+                "seconds": "vor {{num}} Sekunden",
+                "miniutes_one": "vor {{num}} Minute",
+                "miniutes": "vor {{num}} Minuten",
+                "hours_one": "vor {{num}} Stunde",
+                "hours": "vor {{num}} Stunden",
+                "days_one": "vor {{num}} Tag",
+                "days": "vor {{num}} Tagen"
+            },
+            "button": {
+                "refresh": "Auffrischen",
+                "delete": "Löschen",
+                "reinstall": "Neu Installieren",
+                "update": "Aktualisieren",
+                "more": "Mehr",
+                "confirm_delete": "Löschen bestätigen"
+            },
+            "tips": {
+                "view_log": "Zum Anzeigen des Installationsprotokolls hier klicken",
+                "account_invalid": "Es gibt ein Problem mit dem Konto. Bitte überprüfe die Protokolle und behebe das Problem.",
+                "certificate_limit": "Die Apple-ID verfügt über keinen freien Zertifikatsplatz, daher wurde nichts installiert oder widerrufen. Öffnen die App auf der Installationsseite, um auszuwählen, welches Zertifikat widerrufen werden soll.",
+                "no_data": "Keine Daten",
+                "footer": "Standardmäßig wird die App automatisch zwischen 3 und 6 Uhr morgens aktualisiert, wenn ihre Gültigkeitsdauer weniger als einen Tag beträgt. Apps, die mit einer GitHub- oder AltStore-Quelle verknüpft sind, werden im Hintergrund auf neue Versionen überprüft; automatische Updates werden im selben Zeitfenster installiert."
+                "footer_external": "Apps, die mit einem externen Zertifikat signiert sind, werden niemals automatisch aktualisiert: Sie funktionieren nicht mehr, sobald das Zertifikat oder das Bereitstellungsprofil abläuft. Eine Neuinstallation mit demselben Zertifikat und Profil verlängert diese Frist nicht: Ersetze das Profil (oder importiere eine neue Identität, wenn das Zertifikat zuerst abläuft) und installiere die App anschließend neu.",
+                "reinstall_external": "Eine Neuinstallation mit demselben Zertifikat und Bereitstellungsprofil verlängert die Gültigkeit nicht. Installiere die App nach dem Austausch des Profils (oder bei Verwendung einer neuen Identität) erneut, um die Gültigkeit zu verlängern.",
+                "signing_identity_error": "Die Signaturidentität (Zertifikat, privater Schlüssel oder Bereitstellungsprofil) ist ungültig oder nicht kompatibel. Überprüfedas Protokoll und die Identität unter Konten.",
+                "signing_error": "Die Signierung ist fehlgeschlagen oder die signierte App hat die Überprüfung nicht bestanden. Weitere Informationen findest du im Protokoll.",
+                "transport_error": "Das Gerät war nicht erreichbar oder hat die Installation abgelehnt. Weitere Informationen findest du im Protokoll.",
+                "refresh_failed": "Das Auffrischen ist fehlgeschlagen. Weitere Informationen findest du im Protokoll."
+            },
+            "signing": {
+                "external_badge": "Externes Zertifikat",
+                "identity_missing": "Gelöschte Identität",
+                "valid_until": "Gültig bis {{date}}"
+            }
+        }
+    },
+    "pair": {
+        "toast": {
+            "pin_incorrect": "Falscher PIN Code",
+            "pair_error": "Fehler beim Koppeln. Weitere Informationen findest du in der Konsole.",
+            "no_device_found": "Gerät nicht gefunden. Bitte stelle sicher, dass der Dienst usbmuxd läuft."
+        },
+        "manual": {
+            "discovering": "Discovering the pairing port…",
+            "stage_mdns": "Looking up the pairing service…",
+            "stage_scanning": "Scanning ports… {{percent}}%",
+            "stage_probing": "Verifying the pairing service…",
+            "stage_found": "Pairing port found",
+            "stage_failed": "Pairing port not found",
+            "found": "Pairing port: {{port}}",
+            "failed": "Could not find the pairing port. Make sure the Apple TV is in pairing mode.",
+            "retry": "Rediscover"
+        },
+        "step": {
+            "start": {
+                "title": "Start",
+                "device": "Device",
+                "button": "Start Pairing"
+            },
+            "pin": {
+                "title": "Enter PIN code",
+                "loading": "Connecting…",
+                "placeholder": "Please enter the PIN displayed on AppleTV",
+                "button": "Confirm"
+            },
+            "completed": {
+                "title": "Pairing Completed",
+                "msg": "Pairing successful",
+                "button": "Back"
+            }
+        }
+    },
+    "install": {
+        "cert_revoke": {
+            "title": "The Apple ID is at its certificate limit",
+            "warning": "At most one certificate can be revoked so this installation can sign with a new one. The apps signed with the certificate you revoke stop working on their devices. Nothing is revoked until you choose here.",
+            "no_certificates": "No revocable certificate was found for this account. Cancel and revoke one manually on the Accounts page.",
+            "button": {
+                "revoke": "Revoke the selected certificate"
+            },
+            "resuming": "Retrying the installation with the authorized certificate revocation..."
+        },
+        "tips": {
+            "warning": "This device will emulate a MacBook. When signing in with the installation account, please ensure you have an iPhone or an authorized device nearby to receive 2FA verification codes.",
+            "external": "External certificate mode signs with your imported certificate and provisioning profile, without any Apple ID. The app stays valid until the certificate or the profile expires, unless Apple revokes the certificate earlier; atvloadly does not verify revocation."
+        },
+        "dialog": {
+            "input_pin": {
+                "title": "Please enter the 2FA verification code",
+                "input": {
+                    "placeholder": ""
+                },
+                "button": {
+                    "submit": "Confirm"
+                }
+            }
+        },
+        "toast": {
+            "install_success": "Installation Successful",
+            "install_failed": "Installation Failed. Please check logs for more information.",
+            "connection_closed": "Installation connection closed. Please try again.",
+            "app_group_unavailable": "The app's shared storage group could not be registered with this Apple account. Check that the account can create App Groups and supports the app's required capabilities. See the technical log for details."
+        ,
+            "login_success": "Login Success"
+        },
+        "form": {
+            "mode": {
+                "file": "IPA file",
+                "link": "IPA URL",
+                "source": "Source"
+            },
+            "source": {
+                "label": "Source:",
+                "url_placeholder": {
+                    "github": "owner/repo or https://github.com/owner/repo",
+                    "altstore": "https://example.com/apps.json"
+                },
+                "fetch": "Fetch",
+                "prerelease": "Include pre-releases",
+                "prerelease_badge": "Pre-release",
+                "recommended": "Recommended",
+                "choose_tips": "This release contains several IPA files. Choose the one built for your device (tvOS for Apple TV, iOS for iPhone and iPad). Variants such as Sideload and Sideloadly can be different apps, so keep the same one for updates.",
+                "choose_app_tips": "This source lists several apps. Choose the one to install.",
+                "advanced": "Advanced",
+                "filter": {
+                    "label": "File name filter",
+                    "tips": "Regular expression that finds the same IPA in future releases. It is derived from the selected file.",
+                    "custom": "Custom",
+                    "reset": "Reset",
+                    "mismatch": "The filter does not match the selected file."
+                },
+                "bundle_id": {
+                    "label": "Bundle identifier",
+                    "tips": "AltStore apps are tracked by their bundle identifier."
+                },
+                "auto_update": "Install updates automatically",
+                "auto_update_tips": "New versions are installed during the Auto Refresh running time period, even if the app does not need a refresh yet. They are signed with the same account or signing identity.",
+                "select_build": "Fetch the source and select an IPA to install.",
+                "choose_saved_app_tips": "Your saved sources list several apps. Choose the one to install.",
+                "saved": {
+                    "label": "Saved sources",
+                    "all": "All saved sources"
+                },
+                "search_placeholder": "Search apps…",
+                "more_results": "{{num}} more — refine your search",
+                "no_match": "No app matches your search",
+                "save_source": "Save source",
+                "toast": {
+                    "source_saved": "{{name}} added to the saved sources"
+                }
+            },
+            "choose_ipa": {
+                "label": "Choose IPA:"
+            },
+            "ipa_url": {
+                "label": "IPA URL:",
+                "external_unavailable": "External certificate signing needs an uploaded IPA file or a source"
+            },
+            "signer": {
+                "label": "Apple ID or Certificate:",
+                "placeholder": "Select an Apple ID or certificate",
+                "manage": "Manage accounts and certificates",
+                "alt": "Choose an Apple ID or an imported signing certificate to sign the app.",
+                "empty": "No Apple account or signing identity yet.",
+                "go_to_accounts": "Go to Accounts"
+            },
+            "account": {
+                "label": "Apple Account:",
+                "select": {
+                    "placeholder": "Select an account"
+                },
+                "last_used": "Last used",
+                "alt": "For account security, please do not use your primary account for installation."
+            },
+            "custom_name": {
+                "label": "App Name:",
+                "placeholder": "Leave blank to keep the app's own name",
+                "tips": "Renames the app on the home screen. The bundle identifier is unchanged, so the app is still replaced on refresh."
+            },
+            "password": {
+                "label": "Apple Password:"
+            },
+            "button": {
+                "back": "Back",
+                "submit": "Install"
+            },
+            "extensions": {
+                "remove_extensions": "Remove extensions (Plug-ins)",
+                "tips": "Useful when there are not enough App IDs available for registration",
+                "tips_external": "Removes every app extension (widgets, plug-ins). By default extensions are kept and signed with the provisioning profile. Removed extensions are listed in the compatibility check."
+            },
+            "signing_mode": {
+                "label": "Signing:"
+            },
+            "identity": {
+                "label": "Signing identity:",
+                "placeholder": "Select a signing identity",
+                "expires": "expires {{date}}",
+                "manage": "Manage signing identities",
+                "alt": "The app is signed with this certificate and provisioning profile; no Apple ID is used.",
+                "empty": "No signing identity yet. Import a P12 certificate and a provisioning profile in Accounts."
+            },
+            "custom_identifier": {
+                "label": "Custom bundle identifier:",
+                "placeholder": "Leave blank to keep the IPA's bundle identifier",
+                "tips": "Installs the app under a second bundle identifier, which registers another App ID: the app then sits next to the original one. Leave empty to keep the identifiers of the IPA.",
+                "tips_external": "Installs the app under a second bundle identifier, next to the original one. The identifiers of the app extensions follow it. Leave empty to keep the identifiers of the IPA.",
+                "invalid": "The custom bundle identifier is invalid: use only letters, digits, hyphens and dots."
+            },
+            "allow_missing_entitlements": {
+                "label": "Allow missing entitlements",
+                "tips": "Sign even though the provisioning profile does not grant some entitlements the app requests. Features relying on them may not work."
+            }
+        }
+        ,
+        "login_modal": {
+            "title": "Login Apple Account",
+            "setup_2fa_help": "How to set up an iPhone as a trusted device for 2FA?",
+            "button": {
+                "close": "Close",
+                "login": "Login",
+                "add_account": "Add Account"
+            }
+        },
+        "screenshot": {
+            "title": "Device Screenshot",
+            "action": "Screenshot",
+            "empty": "No screenshot yet",
+            "status": {
+                "capturing": "Capturing screenshot…",
+                "success": "Screenshot captured",
+                "failed": "Screenshot failed"
+            },
+            "toast": {
+                "device_not_ready": "Device information is not ready, please try again later",
+                "mount_failed": "Could not prepare the device for a screenshot",
+                "failed": "Screenshot failed",
+                "opened_new_tab": "The browser blocked the automatic download, the screenshot was opened in a new tab for manual saving",
+                "download_failed": "Screenshot download failed, the browser blocked the download"
+            },
+            "button": {
+                "close": "Close",
+                "refresh": "Refresh",
+                "download": "Download"
+            }
+        }
+    },
+    "settings": {
+        "toast": {
+            "save_success": "Save Successful",
+            "notify_success": "Notification Sent Successfully"
+        },
+        "notification": {
+            "title": "Notifications",
+            "toggle": {
+                "label": "Enable"
+            },
+            "type": {
+                "label": "Notification Type"
+            },
+            "weixin": {
+                "title": "Wecom",
+                "corp_id": "CorpID",
+                "corp_secret": "CorpSecret",
+                "agent_id": "AgentID",
+                "touser": "ToUser"
+            },
+            "email": {
+                "smtp_host": "SMTP Server",
+                "smtp_port": "SMTP Port",
+                "username": "Username",
+                "password": "Password",
+                "from": "From Email",
+                "to": "To Email"
+            },
+            "webhook": {
+                "url": "URL",
+                "url_placeholder": "Supports {{title}} and {{message}} template variables",
+                "method": "HTTP Method",
+                "content_type": "Content-Type",
+                "header": "HTTP Headers",
+                "header_placeholder": "Separate multiple headers with semicolons, e.g.: Authorization: Bearer token; X-Custom: value",
+                "body": "Request Body",
+                "body_placeholder": "Supports {{title}} and {{message}} template variables\nExample: {\"title\": \"{{title}}\", \"message\": \"{{message}}\"}"
+            },
+            "button": {
+                "submit": "Save",
+                "send_test": "Send Test Notification"
+            }
+        },
+        "refresh": {
+            "title": "Auto Refresh App",
+            "toggle": {
+                "label": "Enable"
+            },
+            "iphone_toggle": {
+                "label": "iPhone Auto Refresh",
+                "tips": "iPhone refresh isn't restricted by the configured running time; it will attempt to refresh when the iPhone is connected to WiFi"
+            },
+            "mode": {
+                "label": "Refresh Mode",
+                "day_before_expired": "One day before expiration",
+                "custom": "Custom"
+            },
+            "advance_days": {
+                "label": "Advance Days",
+                "1_day": "1 Day",
+                "2_days": "2 Days",
+                "3_days": "3 Days"
+            },
+            "run_time": {
+                "label": "Running Time Period",
+                "format_tips": "Linux crontab format, restricted by refresh mode"
+            },
+            "button": {
+                "submit": "Save"
+            }
+        },
+        "update": {
+            "title": "App Updates",
+            "interval": {
+                "label": "Check for updates",
+                "off": "Off",
+                "every_hour": "Every hour",
+                "every_hours": "Every {{num}} hours"
+            },
+            "github_token": {
+                "label": "GitHub Token",
+                "placeholder": "ghp_... (optional)",
+                "tips": "Optional personal access token used for GitHub API requests. It raises the API rate limit and enables private GitHub repositories. For a fine-grained token, grant Contents: Read-only for the repositories you want to use.",
+                "configured_placeholder": "Configured - enter a new value to replace it",
+                "clear": "Remove"
+            },
+            "tips": "Apps installed from a GitHub repository or an AltStore source are checked in the background, and you are notified of new versions when notifications are enabled. Automatic updates are installed during the Auto Refresh running time period, even if the app does not need a refresh yet. GitHub allows 60 unauthenticated requests per hour.",
+            "task_disabled": "Auto Refresh App is disabled: new versions are still detected, but automatic updates are not installed.",
+            "button": {
+                "submit": "Save"
+            }
+        },
+        "sources": {
+            "title": "AltStore Sources",
+            "list": {
+                "label": "Saved sources",
+                "empty": "No saved sources yet."
+            },
+            "add": {
+                "label": "Add a source"
+            },
+            "tips": "Saved sources can be browsed and searched from the Source mode of the install page.",
+            "delete_confirm": "Remove {{name}} from the saved sources? Apps tracking it are not affected.",
+            "button": {
+                "add": "Add",
+                "delete": "Remove",
+                "cancel": "Cancel",
+                "confirm": "Confirm"
+            },
+            "toast": {
+                "added": "{{name}} saved",
+                "deleted": "{{name}} removed"
+            }
+        },
+        "network": {
+            "title": "Network Settings",
+            "proxy_toggle": {
+                "label": "Enable Proxy"
+            },
+            "http_proxy": {
+                "label": "HTTP Proxy",
+                "placeholder": "e.g., http://proxy.example.com:8080"
+            },
+            "https_proxy": {
+                "label": "HTTPS Proxy",
+                "placeholder": "e.g., http://proxy.example.com:8080"
+            },
+            "button": {
+                "submit": "Save"
+            }
+        }
+            ,
+            "advanced": {
+                "title": "Advanced",
+                "update_coreadi": "Update CoreADI",
+                "update_coreadi_confirm": "Are you sure you want update the CoreADI libraries?",
+                "anisette_server": "Anisette Server",
+                "anisette_server_default_tag": "Default",
+                "anisette_server_tips": "Leave empty to use the default server. If requests still fail after changing the server, try resetting or deleting the Anisette data of the account.",
+                "save": "Save",
+                "reset_anisette": "Anisette Data",
+                "reset_anisette_empty": "No account has Anisette data stored.",
+                "reset_anisette_confirm": "Are you sure you want to reset the Anisette data of {{email}}? A new device identity is generated on its next use, so the account must log in again.",
+                "remove_anisette_confirm": "This account is no longer signed in. Are you sure you want to delete its leftover Anisette data?",
+                "reset": "Reset",
+                "delete": "Delete",
+                "cancel": "Cancel",
+                "confirm": "Confirm",
+                "toast": {
+                    "downloading": "Downloading...",
+                    "success": "Update completed",
+                    "failed": "Update failed",
+                    "reset_success": "Anisette data of {{email}} reset",
+                    "reset_failed": "Reset failed",
+                    "remove_success": "Anisette data of {{email}} deleted",
+                    "remove_failed": "Delete failed",
+                    "server_success": "Anisette server saved",
+                    "server_failed": "Saving anisette server failed"
+                }
+            }
+    },
+    "account": {
+      "status_labels": {"valid": "Valid", "invalid": "Invalid"},
+        "select_account": "Select Account",
+        "select_placeholder": "Please select an account",
+        "table": {
+            "header": {
+                "email": "Email",
+                "account": "Account",
+                "status": "Status",
+                "machine_name": "Machine Name"
+            },
+            "button": {
+                "certificate": "Certificates",
+                "devices": "Devices",
+                "logout": "Logout"
+            },
+            "empty": "No accounts found"
+        },
+        "dialog": {
+            "logout_confirm": {
+                "title": "Are you sure you want to logout {{name}}?"
+            }
+        },
+        "toast": {
+            "delete_success": "Account deleted successfully",
+            "delete_failed": "Failed to delete account",
+            "logout_success": "Account logged out successfully",
+            "logout_failed": "Failed to logout account"
+        },
+      "heading": {
+          "apple_accounts": "Apple Accounts"
+      }
+    },
+    "source_dialog": {
+        "title_track": "Track updates for {{name}}",
+        "title": "Updates for {{name}}",
+        "installed_version": "Installed version",
+        "installed_build": "Installed build",
+        "checked_at": "Last checked",
+        "never": "Never",
+        "already_installed": "The installed version is already {{version}}",
+        "untrack_confirm": "Stop tracking updates for {{name}}?",
+        "button": {
+            "untrack": "Stop tracking",
+            "save": "Save",
+            "install": "Install",
+            "cancel": "Cancel",
+            "confirm": "Confirm"
+        },
+        "toast": {
+            "saved": "Source saved",
+            "untracked": "Stopped tracking {{name}}"
+        }
+    },
+    "certificate": {
+        "modal": {
+            "title": "Certificate Management - {{email}}",
+            "import_title": "Import Certificate",
+            "export_title": "Export Certificate"
+        },
+        "button": {
+            "import": "Import"
+        },
+        "import": {
+            "file_selected": "Selected File: {{name}}"
+        },
+        "import_form": {
+            "password_label": "Certificate Password",
+            "password_placeholder": "Enter P12 Password (optional)"
+        },
+        "export_form": {
+            "password_label": "P12 Password",
+            "password_placeholder": "Enter P12 Password"
+        },
+        "table": {
+            "header": {
+                "serial": "Serial Number",
+                "name": "Name",
+                "machine_name": "Machine Name",
+                "expiration": "Expiration Date"
+            },
+            "button": {
+                "revoke": "Revoke",
+                "export": "Export",
+                "import": "Import"
+            }
+        },
+        "dialog": {
+            "revoke_confirm": {
+                "title": "Are you sure you want to revoke certificate {{serial}}?"
+            }
+        },
+        "toast": {
+            "revoke_success": "Certificate revoked successfully",
+            "revoke_failed": "Failed to revoke certificate",
+            "export_success": "Export Successful",
+            "export_failed": "Export Failed",
+            "export_password_required": "Please enter the certificate password",
+            "import_success": "Import Successful",
+            "import_failed": "Import Failed"
+        },
+        "no_certificates": "No certificates found"
+    },
+    "device": {
+        "modal": {
+            "title": "Devices - {{email}}"
+        },
+        "table": {
+            "header": {
+                "name": "Name",
+                "udid": "UDID",
+                "platform": "Platform"
+            },
+            "empty": "No devices found"
+        },
+        "toast": {
+            "delete_success": "Device deleted successfully",
+            "delete_failed": "Failed to delete device"
+        }
+    }
+    ,
+    "tools": {
+        "ssdp": {
+            "title": "SSDP Scanner",
+            "pairable_label": "Pairable device service type: _remotepairing-manual-pairing._tcp"
+        }
+    },
+    "addDevice": {
+        "title": "Add New Device",
+        "tabs": {
+            "appletv": "Apple TV",
+            "iphone": "iPhone"
+        },
+        "appletv": {
+            "device_label": "Apple TV Device",
+            "ip_placeholder": "e.g. 192.168.1.120",
+            "ip_tips": "The Apple TV must be in pairing mode to be discovered and connected; supports a LAN IP address or a Tailscale IP address",
+            "pairing_step1": "On the Apple TV, open Settings → Remotes and Devices → Remote App and Devices to enter pairing mode.",
+            "pairing_step2": "Refresh the device list and pick the Apple TV, then click Start Pairing.",
+            "no_device": "The IP address does not match a discovered Apple TV. Refresh the list and pick a device.",
+            "submit": "Start Pairing"
+        },
+        "iphone": {
+            "warning1": "Make sure Developer Mode is enabled on the iPhone and the system version is iOS 17.4+.",
+            "warning2": "Use <a href=\"https://github.com/jkcoxson/idevice_pair\" target=\"_blank\" class=\"link\">idevice_pair</a> to export the Pairing File in RPPairing mode and enable Wireless Debugging.",
+            "warning3": "Automatic refresh on iPhone is not guaranteed to be reliable; the iPhone must be unlocked for remote refresh to work properly.",
+            "warning4": "Connecting via a Tailscale IP address requires the iPhone to be connected to Wi-Fi.",
+            "device_label": "iPhone Device",
+            "device_placeholder": "e.g. 192.168.1.205, or pick a device",
+            "device_tips": "The iPhone must be unlocked to be discovered and connected; supports a LAN IP address or a Tailscale IP address",
+            "upload_label": "Upload Pairing File",
+            "no_device": "Could not find the iPhone tunnel service. Make sure the iPhone is unlocked and connected to Wi-Fi (cellular data does not work), and reachable on the same network or over Tailscale.",
+            "submit": "Start Connecting"
+        },
+        "toast": {
+            "device_required": "Please enter or select a device IP address",
+            "file_required": "Please upload a pairing file first"
+        }
+    },
+    "laboratory": {
+        "title": "Connect iPhone",
+        "tips": {
+            "step1": "Please ensure that your iPhone has Developer Mode enabled and the system version is iOS 17.4+.",
+            "step2": "Please download <a href=\"https://github.com/jkcoxson/idevice_pair\" target=\"_blank\" class=\"link\">idevice_pair</a>, connect your iPhone, and export the <b>RPPairing</b> mode Pairing File.",
+            "step3": "Please use idevice_pair to enable Wireless Debugging functionality.",
+            "step4": "Please ensure that your iPhone device is discoverable in the <a href=\"/#/tools\" class=\"link\">Tools</a>.",
+            "step5": "Automatic refresh on iPhone is not guaranteed to be reliable; the iPhone must be unlocked for remote refresh to work properly.",
+            "step6": "Refresh works on the local network only: it cannot refresh properly over VPN or Tailscale."
+        },
+        "form": {
+            "device_label": "Select Corresponding Device",
+            "device_placeholder": "Please select a device",
+            "device_unlock": "The iPhone must be unlocked to be discovered",
+            "refresh": "Refresh",
+            "refresh_devices": "Refresh device list",
+            "upload_label": "Upload Pairing File",
+            "submit": "Submit"
+        },
+        "toast": {
+            "import_success": "Import successful",
+            "import_failed": "Import failed: {{msg}}",
+            "load_devices_failed": "Failed to load device list: {{msg}}"
+        },
+        "dialog": {
+            "override": {
+                "title": "Confirm Overwrite",
+                "content": "A pairing file with the same name already exists. Do you want to overwrite it?",
+                "cancel": "Cancel",
+                "confirm": "Overwrite"
+            }
+        }
+    },
+    "identity": {
+        "title": "Signing identities (external certificate)",
+        "subtitle": "P12 certificates and provisioning profiles used to sign apps without an Apple ID.",
+        "notice": "Signing with an imported certificate needs no Apple ID in atvloadly. Apps can be installed until the certificate or the provisioning profile expires; Apple may still revoke the certificate earlier, and atvloadly does not verify revocation.",
+        "button": {
+            "import": "Import P12",
+            "replace_profile": "Replace profile",
+            "copy": "Copy",
+            "copy_fingerprint": "Copy the SHA-1 fingerprint",
+            "done": "Done"
+        },
+        "table": {
+            "header": {
+                "identity": "Identity",
+                "certificate": "Certificate",
+                "profile": "Provisioning profile",
+                "validity": "Validity",
+                "status": "Status"
+            },
+            "empty": "No signing identity imported"
+        },
+        "fields": {
+            "team": "Team",
+            "expires": "Expires {{date}}",
+            "certificate_validity": "Certificate: {{from}} → {{to}}",
+            "profile_validity": "Profile: {{from}} → {{to}}",
+            "devices_one": "{{count}} device",
+            "devices": "{{count}} devices",
+            "all_devices": "All devices (enterprise)"
+        },
+        "status": {
+            "in_use": "In use by a running installation",
+            "used_by_one": "Used by {{count}} app",
+            "used_by": "Used by {{count}} apps",
+            "unused": "Not used by any app"
+        },
+        "import_modal": {
+            "title": "Import a signing identity",
+            "name_label": "Name (optional)",
+            "name_placeholder": "Defaults to the certificate name",
+            "p12_label": "Certificate (.p12)",
+            "password_label": "P12 password",
+            "password_placeholder": "Leave empty if the P12 has no password",
+            "password_tips": "The password is only used to decrypt the P12 during the import and is never stored.",
+            "profile_label": "Provisioning profile (.mobileprovision)",
+            "submit": "Import",
+            "files_required": "Choose a P12 file and a provisioning profile.",
+            "issues_title": "The identity was imported with the following findings:"
+        },
+        "replace_modal": {
+            "title": "Replace the profile of {{name}}",
+            "current": "Current profile: {{name}}",
+            "tips": "The new provisioning profile must include the certificate of this identity. Installed apps keep their current signature until they are reinstalled.",
+            "submit": "Replace"
+        },
+        "dialog": {
+            "delete_confirm": {
+                "title": "Delete the signing identity {{name}}?"
+            },
+            "referenced": {
+                "title": "Identity used by installed apps",
+                "content_one": "{{count}} installed app uses {{name}}. After the deletion it can no longer be reinstalled with this identity. Delete anyway?",
+                "content": "{{count}} installed apps use {{name}}. After the deletion they can no longer be reinstalled with this identity. Delete anyway?",
+                "confirm": "Delete anyway"
+            }
+        },
+        "toast": {
+            "import_success": "Signing identity imported",
+            "replace_success": "Provisioning profile replaced",
+            "delete_success": "Signing identity deleted",
+            "copied": "Fingerprint copied",
+            "copy_failed": "Could not copy the fingerprint"
+        }
+    },
+    "signing": {
+        "mode": {
+            "apple_id": "Apple ID",
+            "external_certificate": "External certificate"
+        },
+        "severity": {
+            "error": "Blocking",
+            "warning": "Warnings",
+            "info": "Information"
+        },
+        "issues": {
+            "show_more": "Show {{count}} more…",
+            "show_less": "Show less"
+        },
+        "classes": {
+            "identity": "Signing identity",
+            "signing": "Signing",
+            "transport": "Device connection"
+        },
+        "profile_kinds": {
+            "development": "Development",
+            "ad_hoc": "Ad Hoc",
+            "enterprise": "Enterprise",
+            "app_store": "App Store"
+        },
+        "plan": {
+            "title": "Compatibility check",
+            "run_check": "Check again",
+            "view_details": "View details",
+            "uploading": "Uploading the IPA for the compatibility check…",
+            "downloading": "Downloading the IPA from the source for the compatibility check…",
+            "checking": "Checking the IPA, the identity and the device…",
+            "check_failed": "The compatibility check failed",
+            "pending": "Choose an IPA file or a source build and a signing identity to check their compatibility with this device.",
+            "rerun_needed": "Run the compatibility check to install this IPA.",
+            "blocking": "Installation blocked: fix the errors below",
+            "ready": "Ready to sign",
+            "bundle_id": "Bundle identifier",
+            "application_identifier": "Signed application identifier",
+            "unchanged": "unchanged",
+            "removed_extensions": "Removed extensions",
+            "none": "None",
+            "device": "Device and platform",
+            "device_ok": "Covered by the profile",
+            "device_warning": "Covered, with warnings",
+            "device_problem": "Not covered by the profile"
+        },
+        "report": {
+            "title": "Signing report",
+            "plan": "Signing plan used",
+            "verified": "Signed app verified"
+        },
+        "codes": {
+            "upload_too_large": "The file is too large.",
+            "p12_invalid": "The file is not a readable PKCS#12 (.p12) file.",
+            "p12_wrong_password": "Incorrect P12 password.",
+            "p12_password_unsupported": "The P12 password contains characters that PKCS#12 files cannot use, such as emoji. Export the P12 again with another password.",
+            "p12_no_private_key": "The P12 file contains no private key.",
+            "p12_no_certificate": "The P12 file contains no certificate matching its private key.",
+            "p12_key_mismatch": "The private key does not match the certificate.",
+            "p12_ambiguous": "The P12 file contains several identities. Export a single certificate with its private key.",
+            "p12_unsupported": "The P12 file uses an unsupported format, encryption or key type.",
+            "certificate_not_code_signing": "The certificate is not valid for code signing.",
+            "certificate_expired": "The certificate has expired.",
+            "certificate_not_yet_valid": "The certificate is not valid yet.",
+            "certificate_no_team": "The certificate has no Apple developer team identifier.",
+            "revocation_not_checked": "Revocation not verified",
+            "profile_invalid": "The provisioning profile is invalid or cannot be read.",
+            "profile_signature_invalid": "The provisioning profile is not signed by Apple or its signature is invalid.",
+            "profile_expired": "The provisioning profile has expired.",
+            "profile_not_installable": "App Store provisioning profiles cannot install apps on devices.",
+            "profile_certificate_mismatch": "The provisioning profile does not include this certificate.",
+            "profile_team_mismatch": "The provisioning profile belongs to another team than the certificate.",
+            "identity_expiring_soon": "Expires soon",
+            "identity_duplicate": "An identity with the same certificate and provisioning profile already exists.",
+            "identity_not_found": "The signing identity no longer exists.",
+            "identity_in_use": "The signing identity is used by a running installation. Try again once it has finished.",
+            "identity_referenced": "Installed apps still use this signing identity.",
+            "key_unavailable": "The signing key of this installation is unavailable, so the private key cannot be unlocked.",
+            "key_mismatch": "The private key was sealed with another signing key. Restore the original key file or import the identity again.",
+            "sealed_key_corrupt": "The stored private key is damaged. Import the identity again.",
+            "workspace_failed": "The temporary signing workspace could not be prepared.",
+            "device_platform_unknown": "The device platform is unknown.",
+            "device_unreachable": "The device could not be reached.",
+            "profile_platform_mismatch": "The provisioning profile does not support the platform of this device.",
+            "ipa_platform_mismatch": "The app is not built for the platform of this device.",
+            "ipa_platform_unknown": "The platform the app is built for could not be determined.",
+            "device_not_provisioned": "This device is not included in the provisioning profile.",
+            "ipa_invalid": "The IPA file is invalid or cannot be read.",
+            "ipa_path_rejected": "The IPA file is not an uploaded or installed IPA. Upload it again.",
+            "nested_bundles_not_signed": "An app nested inside another app cannot be signed with the provisioning profile.",
+            "bundle_identifier_rewritten": "The bundle identifier will be changed to the custom identifier; the identifiers of the app extensions follow it.",
+            "extension_removed": "An extension will be removed from the app.",
+            "application_identifier_mismatch": "The application identifier would not match the provisioning profile.",
+            "wildcard_requires_binary_entitlements": "The executable embeds no entitlements, so the wildcard profile cannot give it the expected application identifier.",
+            "entitlements_missing": "The provisioning profile does not grant some entitlements requested by the app.",
+            "entitlement_value_changed": "Some entitlements would be signed with other values than the app requests.",
+            "application_identifier_from_profile": "This bundle is signed with the application identifier of the provisioning profile, not its own. App Groups, keychain sharing, push notifications and iCloud may not work.",
+            "custom_identifier_invalid": "The custom bundle identifier is invalid: use only letters, digits, hyphens and dots.",
+            "incompatible": "The IPA, the provisioning profile and the device are not compatible.",
+            "engine_failed": "The signing engine failed.",
+            "signed_output_missing": "The signing engine did not produce the signed IPA.",
+            "signed_bundles_mismatch": "The signed IPA does not contain the expected apps and extensions.",
+            "signed_bundle_identifier_mismatch": "A signed bundle has an unexpected bundle identifier.",
+            "signed_profile_mismatch": "A signed bundle does not embed the provisioning profile of the identity.",
+            "signed_certificate_mismatch": "A signed bundle is not signed with the certificate of the identity.",
+            "signed_entitlements_invalid": "A signed bundle has unexpected entitlements.",
+            "transport_failed": "The device could not be reached or rejected the installation.",
+            "pairing_record_invalid": "The pairing record of the device is missing or unreadable. Pair the device again.",
+            "certificate_invalid": "The stored certificate cannot be read. Import the identity again."
+        }
+    }
+}
